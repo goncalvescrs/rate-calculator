@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora de Juros Compostos</title>
+  <link rel="stylesheet" href="./styles/rate_calculator.css">
+</head>
+<body>
+  <div class="container">
+    <div class="img-principal">
+      <img src="./images/pngwing.com.png" alt="">
+    </div>  
+    <h1>Calculadora de Juros Compostos</h1>
+    <form id="calculator-form">
+      <div>
+        <label for="initial-amount">Quanto você tem para investir hoje?</label>
+        <div class="input-number">
+          <span class="input-text-coin">R$</span>
+          <input type="number" placeholder="0,00" id="initial-amount" required>
+        </div>
+      </div>
+      <div>
+        <label for="monthly-deposit">Aplicação mensal</label>
+        <div class="input-number">
+          <span class="input-text-coin">R$</span>
+          <input type="number" placeholder="0,00" id="monthly-deposit" required>
+        </div>
+      </div>
+      <div>
+        <label for="investment-period">Por quanto tempo?</label>
+        <div class="input-number">
+          <input type="number" placeholder="Digite o número" id="investment-period" required>
+          <span class="input-text-m">meses</span>
+        </div>
+      </div>
+      <div>
+        <label for="interest-rate">Rentabilidade</label>
+        <div class="input-number">
+          <input type="number" placeholder="0,8" id="interest-rate" step="0.01" required>
+          <span class="input-text-rate">% ao mês</span>
+        </div>
+      </div>
+      <div class="button-container">
+        <button type="submit" id="calculate-button">Calcular</button>
+      </div>
+    </form>
+    <div id="result"></div>
+  </body>
+
+  <footer>
+    <p> © Calculadora de Juros Compostos | 2023 </p>
+  </footer>
+
+  <script src="./scripts/rate_calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+* {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+.img-principal {
+  display: flex;
+  justify-content: center;
+}
+
+.img-principal img {
+  max-height: 150px;
+  width: auto;
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+}
+
+form {
+  max-width: 470px;
+  margin: auto;
+  font-size: 1.1em;
+  color: #666;
+}
+
+label {
+  display: block;
+  margin-top: 30px;
+}
+
+input {
+  background-color: #ececec;
+  width: 400px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: none;
+}
+
+.input-number {
+  align-items: center;
+}
+
+.input-text-coin, .input-text-m, .input-text-rate {
+  background-color: #00b200;
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 15px 0 0 15px;
+  margin-right: -4px;
+  display: inline-block;
+  text-align: center;
+}
+
+.input-text-m, .input-text-rate {
+  border-radius: 0 15px 15px 0;
+  margin-left: -5px;
+  width: 80px;
+}
+
+#initial-amount, #monthly-deposit {
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+}
+
+#investment-period, #interest-rate {
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+  width: 350px;
+}
+
+button {
+  margin: 30px 0 100px 0;
+  padding: 15px 80px;
+  font-size: 16px;
+  background-color: #04e004;
+  border: none;
+  box-shadow: 8px 8px 1px #999;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+#result, h3, h4 {
+  color: #999;
+  margin: 20px;
+}
+
+#result {
+  text-align: center;
+  display: flex;
+}
+
+#result h3 {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#result h4 {
+  font-weight: bold;
+}
+
+.result-value, .result-value-end {
+  font-weight: bold;
+  font-size: 2em;
+  padding: 25px;
+  max-width: 300px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.result-value {
+  background-color: #f3f3f3;
+  color: #04e004;
+}
+
+.result-value-end {
+  background-color: #04e004;
+  color: #fff;
+}
+
+.end {
+  margin: 200px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
