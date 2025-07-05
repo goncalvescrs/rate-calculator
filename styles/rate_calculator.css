@@ -63,6 +63,7 @@ label {
   font-size: 16px;
   border: none;
   border-radius: 5px;
+  padding-left: 0.5rem;
 }
 
 button {
